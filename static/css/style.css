@@ -1,12 +1,12 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #fff7ed
 }
 
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4A4A4F;
+    color: #505d66;
 }
 
 .red-o {
@@ -18,15 +18,15 @@ body {
 }
 
 .light-bg {
-    background-color: #fff;
+    background-color: #fff7ed;
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #505d66;
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #fff7ed;
 }
 
 .card {
@@ -43,7 +43,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #188181;
+    background-color: #d71b21;
 }
 
 .scale {
@@ -52,7 +52,7 @@ body {
 }
 
 .author {
-    color: white;
+    color: #fff7ed;
     margin: 4px;
     text-transform: uppercase;
 }
@@ -67,8 +67,8 @@ body {
 }
 
 .masthead-text {
-    background-color: #445261;
-    color: white;
+    background-color: #505d66;
+    color: #fff7ed;
     position: relative;
 }
 
@@ -84,7 +84,7 @@ body {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #445261;
+    background: #505d66;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -98,12 +98,12 @@ body {
 
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: #505d66;
 }
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #f68b05;
 }
 
 .post-title {
@@ -118,41 +118,41 @@ body {
 
 .btn-signup,
 .btn-edit {
-    background-color: #188181;
+    background-color: #cdc48a;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
+    background-color: #fff7ed;
+    color: #f68b05;
 }
 
 .link {
-    color: #23BBBB;
+    color: #f68b05;
     text-decoration: none;
 }
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: #505d66;
     text-decoration: underline;
 }
 
 .btn-like {
-    color: #E84610;
+    color: #f68b05;
     border: none;
     background: transparent;
 }
 
 .btn-delete {
-    color: #fff;
-    background: #E84610;
+    color: #fff7ed;
+    background: #f68b05;
 }
 
 .btn-like:hover,
 .btn-like:active {
-    color: #E84610;
+    color: #d71b21;
     background: transparent;
     border: none;
 }
@@ -162,5 +162,5 @@ body {
 }
 
 .approval {
-    color: rgb(222, 146, 168);
+    color: rgb(222, 187, 146);
 }
