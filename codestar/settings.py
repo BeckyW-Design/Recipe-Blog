@@ -117,7 +117,9 @@ if 'test' in sys.argv:
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    "https://*.codeinstitute-ide.com",
+    "https://8000-beckywdesign-recipeblog-dwyrwryjnog.ws.codeinstitute-ide.net"
 ]
 
 # Password validation
