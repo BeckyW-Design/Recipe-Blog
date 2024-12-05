@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib import messages
 from django.http import HttpResponseRedirect
-from .models import Post, Comment
+from .models import Post, Ingredient, Comment
 from .forms import CommentForm
 
 # Create your views here.
@@ -17,6 +17,7 @@ class PostList(generic.ListView):
 def post_detail(request, slug):
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
+    ingredients = Ingredient.objects.filter(post=post)
     comments = post.comments.all().order_by("-created_on")
     comment_count = post.comments.filter(approved=True).count()
     if request.method == "POST":
@@ -38,6 +39,7 @@ def post_detail(request, slug):
         "blog/post_detail.html",
         {
             "post": post,
+            "ingredients": ingredients,
             "comments": comments,
             "comment_count": comment_count,
             "comment_form": comment_form
