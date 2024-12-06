@@ -94,7 +94,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'codestar.wsgi.application'
+WSGI_APPLICATION = 'recipe-blog.wsgi.application'
 
 
 # Database
