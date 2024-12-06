@@ -27,6 +27,14 @@
     <div class="row">
         <div class="col card mb-4  mt-3 left  top">
             <div class="card-body">
+                    <div>
+                        <h4>Ingredients</h4>
+                        <ul>
+                            {% for ingredient in ingredients %}
+                                <li>{{ ingredient.quantity }} {{ ingredient.unit }} of {{ ingredient.name }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>                                  
                 <article class="card-text">
                     {{ post.content | safe }}
                 </article>

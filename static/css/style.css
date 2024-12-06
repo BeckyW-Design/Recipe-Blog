@@ -63,7 +63,7 @@ body {
 }
 
 .masthead-text {
-    background-color: #505d66;
+    background-color: #f68b05;
     color: #fff7ed;
     position: relative;
 }
@@ -80,7 +80,7 @@ body {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #505d66;
+    background: #f68b05;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
