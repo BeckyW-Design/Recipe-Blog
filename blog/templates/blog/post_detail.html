@@ -14,7 +14,7 @@
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
                 {% if "placeholder" in post.featured_image.url %}
-                <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder">
+                <img src="{% static 'images/prawns.jpg' %}" class="scale" alt="prawn spaghetti">
                 {% else %}
                 <img src="{{ post.featured_image.url }}" class="scale" alt="{{ post.title }}">
                 {% endif %}
@@ -27,18 +27,8 @@
     <div class="row">
         <div class="col card mb-4  mt-3 left  top">
             <div class="card-body">
-                <div class="recipe-section">
-                    <h3>Ingredients:</h3>
-                    <ul>
-                        <ul>
-                        {% for ingredient in ingredients %}
-                            <li>{{ ingredient.quantity }} {{ ingredient.unit }} of {{ ingredient.name }}</li>
-                        {% empty %}
-                            <li>No ingredients available for this recipe.</li>
-                        {% endfor %}
-                        </ul>
-                    </ul>
-                </div>
+                <!-- The post content goes inside the card-text. -->
+                <!-- Use the | safe filter inside the template tags -->
                 <article class="card-text">
                     {{ post.content | safe }}
                 </article>
