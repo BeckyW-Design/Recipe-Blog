@@ -6,11 +6,9 @@ from blog.models import Ingredient
 from .models import RecipeUpload
 
 def recipe_upload(request):
-    # Ingredient formset to handle multiple ingredients
     IngredientFormSet = modelformset_factory(Ingredient, form=IngredientForm, extra=1)
 
     if request.method == "POST":
-        # Instantiate both the recipe form and ingredient formset
         recipe_form = RecipeUploadForm(request.POST, request.FILES)
         ingredient_formset = IngredientFormSet(request.POST)
 
