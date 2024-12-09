@@ -13,8 +13,8 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name="blog_posts"
     )
     featured_image = CloudinaryField('image', default='placeholder')
-    servings = models.IntegerField(null=True)
-    timings = models.IntegerField(null=True)
+    serving = models.IntegerField(null=True)
+    timing = models.IntegerField(null=True)
     content = models.TextField(null=True)
     category_choices = [
         ('GF', 'Gluten Free'),
