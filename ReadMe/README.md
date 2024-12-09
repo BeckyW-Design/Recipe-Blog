@@ -134,6 +134,8 @@ Won't Haves
 
 ## Known Bugs
 
-<img src="../ReadMe/Images/ingredientbug.png.png" alt="screenshot" style="width:500px;"/>
+<img src="../ReadMe/Images/ingredientbug.png" alt="screenshot" style="width:500px;"/>
+
+The units and measurements do not look correct for a recipe, the ingredients should by in fractions and have an option for "to taste".
 
 ## Conclusion
