@@ -12,14 +12,8 @@
             <form method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 <h3>Recipe Details</h3>
-                {{ recipe_upload_form|crispy }}  <!-- Render RecipeUploadForm with crispy-forms -->
+                {{ recipe_upload_form|crispy }}  
 
-                <h3>Ingredients</h3>
-                {% for form in ingredient_formset %}
-                    <div class="form-group">
-                        {{ form|crispy }}  <!-- Render Ingredient forms with crispy-forms -->
-                    </div>
-                {% endfor %}
 
                 <button class="btn btn-secondary" type="submit">Submit</button>
             </form>
