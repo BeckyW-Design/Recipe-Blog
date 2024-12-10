@@ -1,0 +1,193 @@
+body {
+    background-color: #fff7ed
+}
+
+.brand {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #505d66;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.light-bg {
+    background-color: #fff7ed;
+}
+
+.dark-bg {
+    background-color: #505d66;
+}
+
+.main-bg {
+    background-color: #fff7ed;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    bottom: 5%;
+    min-width: 30%;
+    left: -2px;
+    background-color:rgba(221, 123, 32, 0.5);
+    color: #fff7ed;
+    font-family: "Poppins", sans-serif;
+}
+
+.scale {
+    width: 100%;
+    height: auto;
+}
+
+.author {
+    color: #fff7ed;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: #f68b05;
+    color: #fff7ed;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #f68b05;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+
+.profile-image {
+    width: 75%;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #505d66;
+}
+
+.post-link:hover,
+.page-link {
+    color: #f68b05;
+}
+
+.post-title {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: lightgray;
+}
+
+.btn-signup,
+.btn-edit {
+    background-color: #cdc48a;
+    color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff7ed;
+    color: #f68b05;
+}
+
+.link {
+    color: #f68b05;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #505d66;
+    text-decoration: underline;
+}
+
+.btn-like {
+    color: #f68b05;
+    border: none;
+    background: transparent;
+}
+
+.btn-delete {
+    color: #fff7ed;
+    background: #f68b05;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #d71b21;
+    background: transparent;
+    border: none;
+}
+
+.faded {
+    color: rgb(172, 175, 175);
+}
+
+.approval {
+    color: rgb(222, 187, 146);
+}
+
+.navbar {
+    font-family: "Poppins", sans-serif;
+    background-color: #f68b05;
+    background: transparent;
+    text-decoration: none;
+}
+
+.nav-logo {
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.navlink:hover {
+    color: #d71b21;
+}
+
+.navlink:visited {
+    color: #d71b21;
+    background:transparent;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #f68b05;
+}
