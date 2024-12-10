@@ -27,3 +27,4 @@ class RecipeUpload(models.Model):
 
     def __str__(self):
         return f"Thank you for your recipe {self.title}"
+

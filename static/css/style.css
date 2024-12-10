@@ -165,8 +165,8 @@ body {
 
 .navbar {
     font-family: "Poppins", sans-serif;
-    color: #f68b05;
-    background:#cdc48a;
+    background-color: #f68b05;
+    background: transparent;
     text-decoration: none;
 }
 
@@ -189,5 +189,5 @@ body {
 }
 
 .footer {
-    background-color: #cdc48a;
+    background-color: #f68b05;
 }

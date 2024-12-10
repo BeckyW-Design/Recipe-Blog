@@ -48,6 +48,7 @@ def post_detail(request, slug):
 
 
 def comment_edit(request, slug, comment_id):
+
     if request.method == "POST":
 
         queryset = Post.objects.filter(status=1)
@@ -63,7 +64,7 @@ def comment_edit(request, slug, comment_id):
             messages.add_message(request, messages.SUCCESS, 'Comment Updated!')
         else:
             messages.add_message(request, messages.ERROR,
-                                 'Error updating comment!')
+            'Error updating comment!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
