@@ -42,7 +42,7 @@ The ultimate hub for food lovers and home cooks! Discover a world of delicious p
 ## Database Structure
 
 <p align="center">
-<img src="../ReadMe/Images/EDR.png" alt="edr diagram" style="width:500px;"/>
+<img src="ReadMe/Images/EDR.png" alt="edr diagram" style="width:500px;"/>
 </p>
 
 ## Competitor Research
@@ -54,13 +54,13 @@ The ultimate hub for food lovers and home cooks! Discover a world of delicious p
 <h2 style="text-align: center;">Mood Board that inspired the website.</h2>
 
 <p align="center">
-<img src="../ReadMe/Images/MoodBoard.png" alt="mood board" style="width:500px;"/>
+<img src="ReadMe/Images/MoodBoard.png" alt="mood board" style="width:500px;"/>
 </p>
 <h2 style="text-align: center;">Wire Frames</h2>
 <p align="center">
-<img src="../ReadMe/Images/Desktop_Laptop Wireframe.png" alt="wireframe for desktop or laptop" style="width:200px; hight:100px"/> <img src="../ReadMe/Images/Tablet.png" alt="wireframe for tablet" style="width:200px;"/> 
+<img src="ReadMe/Images/Desktop_Laptop Wireframe.png" alt="wireframe for desktop or laptop" style="width:200px; hight:100px"/> <img src="ReadMe/Images/Tablet.png" alt="wireframe for tablet" style="width:200px;"/> 
 <br>
-<img src="../ReadMe/Images/Mobile Wireframe.png" alt="wireframe for mobile" style="width:100px;"/>
+<img src="ReadMe/Images/Mobile Wireframe.png" alt="wireframe for mobile" style="width:100px;"/>
 </p>
 
 <h2 style="text-align: center;">Screen shots</h2>
@@ -68,7 +68,13 @@ The ultimate hub for food lovers and home cooks! Discover a world of delicious p
 
 ## Agile Methodology
 
-<h5>Kanban Board</h2>
+<h3>Kanban Board</h3>
+<p align="center">
+<img src="ReadMe/Images/Kanban board.png" alt="wireframe for mobile" style="width:300px;"/>
+</p>
+
+<h3>Project Board</h3>
+The project board can be found <a href="https://miro.com/app/board/uXjVLBAyMvE=/>">here</a>
 
 
 
