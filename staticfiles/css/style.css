@@ -1,6 +1,50 @@
 body {
     background-color: #fff7ed
 }
+.navbar {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    background-color: rgba(205, 196, 138, 0.75);
+}
+
+.fa-bars {
+    color:#f68b05
+}
+
+.hero-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+hr.rounded {
+    border-top: 8px solid #cdc48a;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+
+.hr-text {
+    position: centre;
+    font-family: "Sour Gummy", sans-serif;
+    color: #d71b21;
+}
+
+.hero-text {
+    font-family: "Poppins", sans-serif;
+    color: #d71b21;
+}
+
+.hero-heading {
+    font-family: "Sour Gummy", sans-serif;
+    color:#f68b05;
+}
 
 .brand {
     font-family: "Sour Gummy", sans-serif;
@@ -163,11 +207,15 @@ body {
     color: rgb(222, 187, 146);
 }
 
-.navbar {
-    font-family: "Poppins", sans-serif;
-    background-color: #f68b05;
-    background: transparent;
-    text-decoration: none;
+.fa-burger {
+    font-size: 1.5rem;
+    color:#d71b21;
+}
+
+.fa-burger:hover i {
+    color: #f68b05;
+    transform: scale(1.2);
+    transition: all 0.3s ease;  
 }
 
 .nav-logo {
@@ -184,7 +232,6 @@ body {
 
 .navlink:visited {
     color: #d71b21;
-    background:transparent;
     text-decoration: underline;
 }
 
