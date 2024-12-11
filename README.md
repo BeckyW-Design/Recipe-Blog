@@ -130,6 +130,13 @@ Won't Haves
 
 ## Testing
 
+| Bug | Solution |
+| ---- | ------ |
+| Unit measurements are not universal e.g 2 slices of bread would be hard to upload | In future iteration I will add a option to fill in your own unit of measurement | 
+|Unit of measurement shows with 2 decimel places in the recipe | In a future iteration I would remove this and investigate if I can use fractions to be more consitstant with recipe styling|
+| When users upload recipes they are not uploading to the site after aproval | TBS |
+| When the app is on a small screen the menu toggle is showing as a rectangle and not the fontawesome icon | TBS |
+
 ## Deployment
 
 
