@@ -7,6 +7,10 @@ body {
     background-color: rgba(205, 196, 138, 0.75);
 }
 
+.fa-bars {
+    color:#f68b05
+}
+
 .hero-img {
     width: 150px;
     height: 150px;
