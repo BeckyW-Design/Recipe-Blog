@@ -3,6 +3,21 @@
 {% block content %}
 
 <!-- index.html content starts here -->
+
+<div class="container text-center mt-5">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-4 text-center">
+            <img src="static/images/spices.jpg" alt="Image of Spices" class="hero-img">
+        </div>
+        <div class="col-12 col-md-8 text-center text-md-start mt-3 mt-md-0">
+            <h1 class="hero-heading">Welcome to The Recipe Book</h1>
+            <h3 class="hero-text"> Please share, cook, enjoy!</h3>
+            </div>
+    </div>
+</div>
+<div class="hr-container">
+    <hr class="rounded">
+</div>
 <div class="container-fluid">
     <div class="row">
 
@@ -15,7 +30,7 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top" src="{% static 'images/prawns.jpg' %}"
+                                <img class="card-img-top" src="{% static 'images/recipe.jpg' %}"
                                     alt="placeholder image">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="{{ post.title }}">

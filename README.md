@@ -9,35 +9,45 @@ The ultimate hub for food lovers and home cooks! Discover a world of delicious p
 3. [Target Audience](#target-audience)
 4. [Features](#features)
 5. [Additional Features](#additional-features)
-6. [User Stories](#userstories)
-7. [Database Structure](#database-structure)
-8. [Competitor Research](#competitor-research)
-9. [User Flow](#userflow)
-10. [User Experience / Wireframes](#userexperience-wireframes)
-11. [Agile Methodology](#agile-methodology)
-12. [User Stories](#user-stories)
-13. [Testing](#testing)
-14. [Deployment](#deployment)
-15. [Future Features](#future-features)
-16. [Citation of Sources](#citation-of-sources)
-17. [Known Bugs](#known-bugs)
-18. [Conclusion](#conclusion)
+6. [Database Structure](#database-structure)
+7. [User Experience / Wireframes](#userexperience-wireframes)
+8. [Agile Methodology](#agile-methodology)
+9. [User Stories](#user-stories)
+10. [Testing](#testing)
+11. [Deployment](#deployment)
+12. [Citation of Sources](#citation-of-sources)
+13. [Known Bugs](#known-bugs)
+15. [Credits](#credits)
 
 
 
 ## Problem Statement
-
- 
+The most common question asked in my household is, "What's for dinner?" 
+As a single working mum, this question fills me with dread and takes up more time than I feel I have to decide, shopping for ingredients and then preparing the meal. Then throw in a curve ball, a friend who has a gluten intolerance or allergy... pure panic! Which Is why I developed this recipe blog. A place to share and find recipes to help reduce the mealtime dread. 
 
 ## Purpose
 
+Households are becoming busier and with the current climate the importance of meal planning to help tighter budgets is even greater. The purpose of this site is to help users to meal plan, budget and share great recipes.
+
 ## Target Audience
+
+All those who cook our of enjoyment or necessity
 
 ## Features
 
+A login/Logout feature.
+Comment section for users to add comments.
+A page to upload and share recipes.
+Recipes with ingretients timings and tags to any alergens.
+Picture upload feature.
+Links to social media to share recipes users have tried.
+
 ## Additional Features
 
-## User Stories
+A search bar to easily find a recipe
+A filter to help reduce the number of recipes avlible/ remove those recipes that have certain ingrient in them.
+A space for individuals to keep a recipe folder of there favorite recipes.
+
 
 ## Database Structure
 
@@ -45,16 +55,12 @@ The ultimate hub for food lovers and home cooks! Discover a world of delicious p
 <img src="ReadMe/Images/EDR.png" alt="edr diagram" style="width:500px;"/>
 </p>
 
-## Competitor Research
-
-## User Flow
-
 ## User Experience / Wireframes
 
 <h2 style="text-align: center;">Mood Board that inspired the website.</h2>
 
 <p align="center">
-<img src="ReadMe/Images/MoodBoard.png" alt="mood board" style="width:500px;"/>
+<img src="ReadMe/Images/Moodboard.png" alt="mood board" style="width:500px;"/>
 </p>
 <h2 style="text-align: center;">Wire Frames</h2>
 <p align="center">
@@ -126,7 +132,6 @@ Won't Haves
 
 ## Deployment
 
-## Future Features
 
 ## Citation of Sources
 
@@ -142,8 +147,9 @@ Won't Haves
 
 ## Known Bugs
 
-<img src="../ReadMe/Images/ingredientbug.png" alt="screenshot" style="width:500px;"/>
+
+
+<img src="ReadMe/Images/error.png" alt="recipe form not uploading">
 
 The units and measurements do not look correct for a recipe, the ingredients should by in fractions and have an option for "to taste".
 
-## Conclusion

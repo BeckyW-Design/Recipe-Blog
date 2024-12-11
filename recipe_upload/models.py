@@ -6,7 +6,7 @@ from cloudinary.models import CloudinaryField
 class RecipeUpload(models.Model):
     title = models.CharField(max_length=200, unique=True)
     author = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="recipe_uploads"
+        User, on_delete=models.CASCADE, related_name="recipe_uploads",
     )
     featured_image = CloudinaryField('image', default='placeholder', blank=True)
     servings = models.IntegerField(null=True)

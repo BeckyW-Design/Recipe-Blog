@@ -1,18 +1,19 @@
 from django.shortcuts import render
 from django.contrib import messages
-from .forms import RecipeUploadForm
-# from django.forms import modelformset_factory
 from .models import RecipeUpload
+from .forms import RecipeUploadForm
+
 
 def recipe_upload(request):
     
     if request.method == "POST":
-        recipe_form = RecipeUploadForm(request.POST, request.FILES)        
+        recipe_form = RecipeUploadForm(request.POST)        
         if recipe_form.is_valid():
                 recipe = recipe_form.save()
+                recipe.author = request.user
                 messages.add_message(request, messages.SUCCESS, "Recipe uploaded successfully!")
                 messages.success(request, 'Recipe uploaded successfully!')
-        return render(request, 'about/about.html')
+        return render(request, 'recipe_upload/upload.html')
     else:
         
         recipe_form = RecipeUploadForm()
