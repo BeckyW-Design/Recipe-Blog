@@ -11,4 +11,5 @@ class RecipeUploadForm(forms.ModelForm):
         Specify the django model and order of the fields
         """
         model = RecipeUpload
-        fields = ('title', 'featured_image', 'servings', 'timings', 'ingredient', 'content', 'category')
+        fields = ('title', 'featured_image', 'servings', 'timings',
+        'ingredient', 'content', 'category')

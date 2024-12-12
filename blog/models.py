@@ -4,7 +4,6 @@ from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "Draft"), (1, "Published"))
 
-# Create your models here.
 
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
@@ -22,7 +21,8 @@ class Post(models.Model):
         ('Vg', 'Vegan'),
         ('V', 'Vegetarian')
     ]
-    category = models.CharField(max_length=2, choices=category_choices, null=True)
+    category = models.CharField(max_length=2,
+        choices=category_choices, null=True)
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     excerpt = models.TextField(blank=True)
@@ -34,23 +34,26 @@ class Post(models.Model):
     def __str__(self):
         return f"{self.title} | written by {self.author}"
 
+
 class Ingredient(models.Model):
-    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="ingredient")
+    post = models.ForeignKey(Post, on_delete=models.CASCADE,
+            related_name="ingredient")
     name = models.CharField(max_length=150)
     quantity = models.DecimalField(max_digits=6, decimal_places=2)
 
     unit_choices = [
-        ("grams","Grams"),
-        ("kilograms","Kilograms"),
-        ("cups","Cups"),
-        ("tablespoon","Tablespoon"),
-        ("teaspoon","Teaspoon"),
+        ("grams", "Grams"),
+        ("kilograms", "Kilograms"),
+        ("cups", "Cups"),
+        ("tablespoon", "Tablespoon"),
+        ("teaspoon", "Teaspoon"),
         ("small", "Small"),
         ("medium", "Medium"),
-        ("large","Large"),
+        ("large", "Large"),
     ]
 
-    unit = models.CharField(max_length=20, choices=unit_choices, default="grams", blank=True, null=True)    
+    unit = models.CharField(max_length=20,
+        choices=unit_choices, default="grams", blank=True, null=True)
 
     def __str__(self):
         return f"{self.quantity} {self.unit} of {self.name}"

@@ -9,3 +9,4 @@ class RecipeUploadAdmin(SummernoteModelAdmin):
     Adds rich-text editing of content in admin
     """
     summernote_fields = ('content',)
+    

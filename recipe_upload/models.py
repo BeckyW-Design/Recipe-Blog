@@ -8,7 +8,8 @@ class RecipeUpload(models.Model):
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="recipe_uploads",
     )
-    featured_image = CloudinaryField('image', default='placeholder', blank=True)
+    featured_image = CloudinaryField('image',
+        default='placeholder', blank=True)
     servings = models.IntegerField(null=True)
     timings = models.IntegerField(null=True)
     content = models.TextField(null=True)
@@ -20,11 +21,11 @@ class RecipeUpload(models.Model):
         ('V', 'Vegetarian')
 
     ]
-    category = models.CharField(max_length=2, choices=category_choices, blank=True, null=True)
+    category = models.CharField(max_length=2,
+        choices=category_choices, blank=True, null=True)
     created_on = models.DateTimeField(auto_now_add=True)
     excerpt = models.TextField(blank=True)
     updated_on = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return f"Thank you for your recipe {self.title}"
-

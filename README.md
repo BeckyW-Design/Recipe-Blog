@@ -31,7 +31,7 @@ Households are becoming busier and with the current climate the importance of me
 
 ## Target Audience
 
-All those who cook our of enjoyment or necessity
+All those who cook our of enjoyment or necessity.
 
 ## Features
 
@@ -58,6 +58,7 @@ A space for individuals to keep a recipe folder of there favorite recipes.
 ## User Experience / Wireframes
 
 <h2 style="text-align: center;">Mood Board that inspired the website.</h2>
+<p align="center">The colour scheme was inspired by the rich vibrant colours of the herbs and spices used by many in their cooking.</p>
 
 <p align="center">
 <img src="ReadMe/Images/Moodboard.png" alt="mood board" style="width:500px;"/>
@@ -129,15 +130,31 @@ Won't Haves
 
 
 ## Testing
+HTML and CSS valadation performed by https://validator.w3.org/
+<img src="/workspace/Recipe-Blog/ReadMe/Images/css.png" alt ="css errors screengrab">
 
-| Bug | Solution |
-| ---- | ------ |
-| Unit measurements are not universal e.g 2 slices of bread would be hard to upload | In future iteration I will add a option to fill in your own unit of measurement | 
-|Unit of measurement shows with 2 decimel places in the recipe | In a future iteration I would remove this and investigate if I can use fractions to be more consitstant with recipe styling|
-| When users upload recipes they are not uploading to the site after aproval | TBS |
-| When the app is on a small screen the menu toggle is showing as a rectangle and not the fontawesome icon | TBS |
+<img src="ReadMe/Images/error1.png" alt ="html errors screengrab">
+
+3 syntax errors noted and changed.
+
+Python code put through CI Python Linter
+all syntax errors adjust apart from 4 line indentation errors that I have left for readability. 
+
+The current iteration fails on its accessibility due to low contrast between the orange font and the cream background. In a future iteration this should be looked at and changed acordingly.
+
+
+<h2>Manual Testing</h2>
+
+
+
+<h3>Future Improvements</h3>
+When users upload recipes they are not uploading to the site after aproval This will be updated for a future iteration to allow the user to upload this once approved via admin.
 
 ## Deployment
+
+Heroku live link can be found [here](https://capstone-recipe-blog-a88392fc4fea.herokuapp.com/)
+
+
 
 
 ## Citation of Sources
@@ -151,12 +168,3 @@ Won't Haves
 |Stock Image of recipe book | https://www.pexels.com/photo/white-and-gray-chevron-print-recipes-book-833109/|
 |Logo Design | Designed using Canva |
 | Fonts | Google Fonts |
-
-## Known Bugs
-
-
-
-<img src="ReadMe/Images/error.png" alt="recipe form not uploading">
-
-The units and measurements do not look correct for a recipe, the ingredients should by in fractions and have an option for "to taste".
-
