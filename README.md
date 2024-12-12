@@ -2,6 +2,8 @@
 
 The ultimate hub for food lovers and home cooks! Discover a world of delicious possibilities as you swap recipes with fellow cooking enthusiasts, rate and discuss your favourite dishes, and create a personalised collection of recipes you love. Whether you're mastering the art of cooking or just exploring new flavours, The Recipe Book brings a vibrant community of foodies right to your kitchen. Let’s cook, share, and savour together.
 
+<img src="ReadMe/Images/recipebook.png" alt="Responsive images" style="width:500px;"/>
+
 # Table of Contents
 
 1. [Problem Statement](#problem-statement)
@@ -16,9 +18,7 @@ The ultimate hub for food lovers and home cooks! Discover a world of delicious p
 10. [Testing](#testing)
 11. [Deployment](#deployment)
 12. [Citation of Sources](#citation-of-sources)
-13. [Known Bugs](#known-bugs)
-15. [Credits](#credits)
-
+13. [Credits](#credits)
 
 
 ## Problem Statement
@@ -38,16 +38,15 @@ All those who cook our of enjoyment or necessity.
 A login/Logout feature.
 Comment section for users to add comments.
 A page to upload and share recipes.
-Recipes with ingretients timings and tags to any alergens.
+Recipes with ingredients timings and tags to any allergens.
 Picture upload feature.
 Links to social media to share recipes users have tried.
 
 ## Additional Features
 
 A search bar to easily find a recipe
-A filter to help reduce the number of recipes avlible/ remove those recipes that have certain ingrient in them.
-A space for individuals to keep a recipe folder of there favorite recipes.
-
+A filter to help reduce the number of recipes available/ remove those recipes that have certain ingredient in them.
+A space for individuals to keep a recipe folder of there favourite recipes.
 
 ## Database Structure
 
@@ -84,12 +83,11 @@ A space for individuals to keep a recipe folder of there favorite recipes.
 The project board can be found <a href="https://miro.com/app/board/uXjVLBAyMvE=/>">here</a>
 
 
-
 ## User Stories
 
 | User Story | Feature |
 | ----------| -------- |
-| I am a user I want to be able to see the recipes clearly and be able to identify the ingredients needed | Recipe Cards with Ingredients |  
+| I am a user I want to be able to see the recipes clearly and be able to identify the ingredients needed | Recipe Cards with Ingredients |  
 | I am a user I want to be have clear space to see and sort recipes| A space for users to store a collection of recipes |
 |I am a user I want to be able to share my own recipes for others to use| Ability to upload users own recipes|
 | As a user I want to be able to comment on recipes because I want to give feedback to others on how a recipe turned out. | Comment section under the recipe |
@@ -100,7 +98,6 @@ The project board can be found <a href="https://miro.com/app/board/uXjVLBAyMvE=/
 | As a user I want to be able to sort recipes by ingredients because I can exclude any that may have allergens or ingredients I dislike.| Filter function for recipes|
 | As a user I wish to upload photos of food I have created because I want feedback from others.| Photo uploading feature|
 | As a user I want to be able to search for recipes of ingredients easily | Search function |
-
 
 <h3>MoSCoW score features</h3>
 Must Haves
@@ -128,9 +125,8 @@ Won't Haves
 <li>Sort recipes and exclude those with allergens </li>
 </ul>
 
-
 ## Testing
-HTML and CSS valadation performed by https://validator.w3.org/
+HTML and CSS validation performed by https://validator.w3.org/
 <img src="/workspace/Recipe-Blog/ReadMe/Images/css.png" alt ="css errors screengrab">
 
 <img src="ReadMe/Images/error1.png" alt ="html errors screengrab">
@@ -140,15 +136,29 @@ HTML and CSS valadation performed by https://validator.w3.org/
 Python code put through CI Python Linter
 all syntax errors adjust apart from 4 line indentation errors that I have left for readability. 
 
-The current iteration fails on its accessibility due to low contrast between the orange font and the cream background. In a future iteration this should be looked at and changed acordingly.
+The current iteration fails on its accessibility due to low contrast between the orange font and the cream background. In a future iteration this should be looked at and changed accordingly.
 
+<h3>Manual Testing</h3>
 
-<h2>Manual Testing</h2>
-
+| Testing | Pass/Fail |
+| ------- | --------- |
+| Navigation | Pass - Can easily navigate between pages |
+| Login/Logout feature | Pass - Login page & username on show when logged in |
+| Comment Section | Pass - Users can add comments to recipes |
+| Delete/Edit own comments | Pass - Users can edit or delete their own comments |
+| Recipe Card | Pass - Multiple recipe cards can been seen at once |
+| Clear and concise instructions | Fail - See below |
+| Pictures can be uploaded along with recipes | Pass - Pictures can be uploaded by user or admin |
+| Sign up feature for users | Pass - Users can sign up, however the CSS is currently not working |
 
 
 <h3>Future Improvements</h3>
-When users upload recipes they are not uploading to the site after aproval This will be updated for a future iteration to allow the user to upload this once approved via admin.
+<ul>
+<li>The units for the ingredients on the recipe cards are not very clear. In a future iteration I will look at adding more options to the ingredient model as well as having a blank option for users to customise.</li>
+<li>When users upload recipes they are not uploading to the site after approval, they are being sent to admin to upload. This will be updated for a future iteration to allow the user to upload this once approved by admin.</li>
+<li>The accessibility fails for this website due to the contrast between the orange text and the cream background. This should be looked at in a future iteration.</li>
+<lil>The CSS needs to be addressed for the signup page.
+</ul>
 
 ## Deployment
 
@@ -162,7 +172,7 @@ Heroku live link can be found [here](https://capstone-recipe-blog-a88392fc4fea.h
 | Description | Source |
 | ----------- | ------ |
 | Recipe content | Chat GPT |
-| Stock Image of Cupcake  | https://www.pexels.com/photo/person-holding-cupcake-with-white-icing-4099127/ | 
+| Stock Image of Cupcake  | https://www.pexels.com/photo/person-holding-cupcake-with-white-icing-4099127/ | 
 | Stock Image of spices | https://www.pexels.com/photo/assorted-cooking-spices-2802527/ |
 | Stock Image of bowl | https://www.pexels.com/photo/person-pouring-salt-in-bowl-11
 |Stock Image of recipe book | https://www.pexels.com/photo/white-and-gray-chevron-print-recipes-book-833109/|
